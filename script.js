@@ -65,7 +65,7 @@ window.addEventListener("load", function(){
         
         }
         restart() {
-            this.x = this.gameWidth - this.width;
+            this.x = 0;
             this.y = this.gameHeight - this.height;
             this.maxFrame = 8;
             this.frameY = 0;
